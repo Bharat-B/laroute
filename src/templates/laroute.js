@@ -8,7 +8,11 @@
             rootUrl: '$ROOTURL$',
             routes : $ROUTES$,
             prefix: '$PREFIX$',
-
+            
+            setRootUrl: function(url){
+                rootUrl = url;
+            },
+            
             route : function (name, parameters, route) {
                 route = route || this.getByName(name);
 
