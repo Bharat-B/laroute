@@ -1,6 +1,6 @@
 <?php
 
-namespace Lord\Laroute;
+namespace BharatB\Laroute;
 
 use Illuminate\Support\ServiceProvider;
 use Lord\Laroute\Console\Commands\LarouteGeneratorCommand;
