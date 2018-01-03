@@ -1,9 +1,9 @@
 <?php
 
-namespace Lord\Laroute\Console\Commands;
+namespace BharatB\Laroute\Console\Commands;
 
-use Lord\Laroute\Routes\Collection as Routes;
-use Lord\Laroute\Generators\GeneratorInterface as Generator;
+use BharatB\Laroute\Routes\Collection as Routes;
+use BharatB\Laroute\Generators\GeneratorInterface as Generator;
 
 use Illuminate\Config\Repository as Config;
 use Illuminate\Console\Command;
