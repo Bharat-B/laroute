@@ -16,7 +16,7 @@ Install the usual [composer](https://getcomposer.org/) way.
 ```json
 {
 	"require" : {
-		"lord/laroute" : "2.*"
+		"bharatb/laroute" : "2.*"
 	}
 }
 ```
@@ -29,7 +29,7 @@ n.b Laravel 4.x users, check out [version 1.3.2](https://github.com/aaronlord/la
 	
 	'providers' => array(
 		...
-		Lord\Laroute\LarouteServiceProvider::class,
+		BharatB\Laroute\LarouteServiceProvider::class,
 	],
 	
 	...
@@ -40,7 +40,7 @@ n.b Laravel 4.x users, check out [version 1.3.2](https://github.com/aaronlord/la
 Copy the packages config files.
 
 ```
-php artisan vendor:publish --provider='Lord\Laroute\LarouteServiceProvider'
+php artisan vendor:publish --provider='BharatB\Laroute\LarouteServiceProvider'
 ```
 
 ###### app/config/packages/lord/laroute/config.php
@@ -127,6 +127,19 @@ With the default configuration, this will create a `public/js/laroute.js` file t
 
 By default, all of the functions are under the `laroute` namespace. This documentation will stick with this convention.
 
+### root
+
+Generate a base root
+
+```js
+/**
+ * laroute.setRootUrl("http://example.com");
+ * setRootUrl	: This will be the Base Url that will be prefix all routes.
+ * base_root	: protocol + domain ( eg: https://example.com | http://example.com )
+ */
+
+laroute.setRootUrl(base_root);
+```
 
 ### action
 
