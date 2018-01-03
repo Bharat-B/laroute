@@ -1,9 +1,9 @@
 <?php
 
-namespace Lord\Laroute\Generators;
+namespace BharatB\Laroute\Generators;
 
 use Illuminate\Filesystem\Filesystem;
-use Lord\Laroute\Compilers\CompilerInterface as Compiler;
+use BharatB\Laroute\Compilers\CompilerInterface as Compiler;
 
 class TemplateGenerator implements GeneratorInterface
 {
