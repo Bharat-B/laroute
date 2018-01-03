@@ -1,6 +1,6 @@
 <?php
 
-namespace Lord\Laroute\Compilers;
+namespace BharatB\Laroute\Compilers;
 
 interface CompilerInterface
 {
