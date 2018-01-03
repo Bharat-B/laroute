@@ -8,11 +8,11 @@
             rootUrl: '$ROOTURL$',
             routes : $ROUTES$,
             prefix: '$PREFIX$',
-            
+
             setRootUrl: function(url){
                 rootUrl = url;
             },
-            
+
             route : function (name, parameters, route) {
                 route = route || this.getByName(name);
 
@@ -144,6 +144,10 @@
                 return routes.route(route, parameters);
             },
 
+            setRootUrl : function (url) {
+                return routes.setRootUrl(url);
+            },
+
             // Generate a fully qualified URL to the given path.
             // $NAMESPACE$.route('url', [params = {}])
             url : function (route, parameters) {
@@ -196,4 +200,3 @@
     }
 
 }).call(this);
-
