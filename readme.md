@@ -43,7 +43,7 @@ Copy the packages config files.
 php artisan vendor:publish --provider='BharatB\Laroute\LarouteServiceProvider'
 ```
 
-###### app/config/packages/lord/laroute/config.php
+###### app/config/packages/bharatb/laroute/config.php
 
 ```php
 
@@ -94,7 +94,7 @@ return [
      * the ported helper Laravel url/route functions and the route data to go
      * with them.
      */
-    'template' => 'vendor/lord/laroute/src/templates/laroute.js',
+    'template' => 'vendor/bharatb/laroute/src/templates/laroute.js',
     
     /*
      * Appends a prefix to URLs. By default the prefix is an empty string.
@@ -258,4 +258,4 @@ Route::group(['laroute' => false], function () {
 
 ## Licence
 
-[View the licence in this repo.](https://github.com/aaronlord/laroute/blob/master/LICENSE)
+[View the licence in this repo.](https://github.com/bharatb/laroute/blob/master/LICENSE)
